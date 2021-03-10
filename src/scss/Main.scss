@@ -1,0 +1,135 @@
+@import "global";
+
+* {
+  padding: 0px;
+  margin: 0px;
+}
+
+body {
+  background: radial-gradient(#e5e5e5, #fff, #e5e5e5);
+}
+
+.card-icon .fa-shopping-cart {
+  font-size: 21px;
+}
+
+.fa-edit {
+  font-size: $iconfontsize;
+}
+
+.icon-space {
+  margin-left: 5px;
+}
+
+.customerinfor {
+  display: flex;
+}
+
+.card-num {
+  display: none;
+  position: absolute;
+  background: #f36e36;
+  color: #fff;
+  top: 4px;
+  font-weight: 400;
+  right: 210px;
+  text-align: center;
+  border: 3px solid #f36e36;
+  font-size: 13px;
+  min-width: 19px;
+  line-height: 14px;
+  border-radius: 50%;
+}
+
+a {
+  color: #92badd;
+  display: inline-block;
+  text-decoration: none;
+  font-weight: $font-weighthalf;
+}
+
+.box-title {
+  position: relative;
+  font-size: $font-sizemid;
+  letter-spacing: $letter-spacing;
+  font-weight: $font-weight;
+}
+
+.box-title::after {
+  position: relative;
+  content: "";
+  display: block;
+  width: 30px;
+  margin: 10px 0;
+  margin-left: auto;
+  margin-right: auto;
+  top: -1px;
+  border-top-style: solid;
+  border-top-width: 1px;
+  border-top-color: #009cff;
+}
+
+
+@import "Header";
+@import "Navbar";
+@import "Carousel";
+@import "services";
+@import "column";
+@import "serviceprofiles";
+@import "cardui";
+@import "info";
+@import "footer";
+
+//Services
+@import "mainservice";
+
+// contactform.js
+@import "contactform";
+
+//Login.js
+@import "login";
+
+//Appointment.js
+@import "appointment";
+
+// Shop.js
+@import "shop";
+
+//Shopcart.js
+@import "shopcart";
+
+// Navcart.js
+@import "navcard";
+
+
+//Leftside.js
+@import "Leftinfo";
+
+//Myaccount.js
+@import "myaccount";
+
+
+//Appointmentdate.js
+@import "appointmentdate";
+
+//Laptopform.js
+@import "laptopform";
+
+//customerinfo.js
+@import "customerinfo";
+
+//Technicaninfo.scss
+@import "technicaninfo";
+
+
+//Registeradmin.js
+@import "registeradmin";
+
+//Usergreeting.js
+@import "usergreeting";
+
+//Register.js
+@import "register";
+
+// Edit.js
+@import "edit";
